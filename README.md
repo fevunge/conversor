@@ -1,4 +1,3 @@
-# Conversor de Moedas (BRL para Outras Moeadas) - CLI 
-**by:** [fevunge](github.com/fevunge)
+# Conversor de Moedas (BRL para Outras Moeadas) - CLI
 
-
+**by:** [fevunge](https://github.com/fevunge)
