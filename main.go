@@ -27,10 +27,10 @@ func main() {
 		ratesMap = m["rates"].(map[string]any)
 	}
 	rateCode := strings.ToUpper(args[1])
-	rate, ok := ratesMap[rateCode].(float32)
+	rate, ok := ratesMap[rateCode].(float64)
 	if !ok {
-		fmt.Println(rateCode, "is a invalid rate code", rate, ratesMap["USD"])
+		fmt.Println(rateCode, "is a invalid rate code")
 		return
 	}
-	fmt.Println(rate * float32(blr))
+	fmt.Printf("%.2f\n", rate*blr)
 }
